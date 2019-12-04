@@ -29,3 +29,12 @@ echo '<br>';
 echo 'Koonuse ruumala on: '.$kruumala.' m3<br>';
 
 
+
+echo "<h1>Silindri ruumala</h1>";
+$sraadius = $_GET['sr'];
+$skorgus = $_GET['sk'];
+$r2raadius = $sraadius*$sraadius;
+$sruumala =pi()*$r2raadius*$skorgus;
+echo '<br>';
+echo 'Koonuse ruumala on: '.$sruumala.' m3<br>';
+
