@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <title>06 - PHP - Vormid</title>
 </head>
+
 <body>
 <h1>Pood OÜ</h1>
 <form action="tellimine.php" method="get">
+
     <label for="1">Toode 1</label>
     <input type="text" name="t1" id="1"><br>
 
@@ -21,10 +23,24 @@
 
 <h1>Kera ruumala arvutamine</h1>
 <form action="tellimine.php" method="get">
+
     <label for="raadius">Kera raadius (meetrites)</label>
     <input type="number" name="r" id="raadius"><br>
 
     <input type="submit" value="Saada">
 </form>
+
+<h1>Koonuse ruumala arvutamine</h1>
+<form action="tellimine.php" method="get">
+
+    <label for="kraadius">Põhja raadius (r)</label>
+    <input type="number" name="kr" id="kraadius"><br>
+
+    <label for="korgus">Kõrgus (h)</label>
+    <input type="number" name="ko" id="korgus"><br>
+
+    <input type="submit" value="Saada">
+</form>
+
 </body>
 </html>
