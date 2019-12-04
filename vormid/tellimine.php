@@ -8,3 +8,16 @@ $toode3 = $_GET['t3'];
 echo 'Toode 1: '.$toode1.'tk<br>';
 echo 'Toode 2: '.$toode2.'tk<br>';
 echo 'Toode 3: '.$toode3.'tk<br>';
+
+
+echo "<h1>Kera ruumala</h1>";
+//lisab vormist saadud andmed muutujasse
+$raadius = $_GET['r']; //viitab nimele mitte id
+$diameeter = $raadius*2;
+$pindala = pi()*$diameeter*$diameeter;
+
+$ruumala = 4/3*3.14*$raadius*$raadius*$raadius;
+echo '<br>';
+echo 'Kera ruumala on: '.$ruumala.' m3<br>';
+
+
