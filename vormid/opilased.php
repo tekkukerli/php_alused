@@ -59,9 +59,7 @@ foreach ($opilased as $opilane){
         echo $element.' - '.$vaartus.'<br>';
     }
     echo '<br>';
-
-    echo $opilased[8]['perenimi']; //ei tööta
 }
 echo '<hr>';
 
-
+echo $opilased[1]['perenimi'];
