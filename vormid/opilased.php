@@ -37,6 +37,7 @@ echo '</pre>';
 foreach ($jaana as $element => $vaartus){
     echo $element.' - '.$vaartus.'<br>';
 }
+echo '<hr>';
 
 $opilased = array(
     array(
@@ -58,4 +59,9 @@ foreach ($opilased as $opilane){
         echo $element.' - '.$vaartus.'<br>';
     }
     echo '<br>';
+
+    echo $opilased[8]['perenimi']; //ei tööta
 }
+echo '<hr>';
+
+
