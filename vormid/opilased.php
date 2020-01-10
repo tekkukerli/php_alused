@@ -12,6 +12,7 @@ $vso19 = array(
 );
 echo $vso19[0].'<br>';
 echo $vso19[6].'<br>';
+echo '<hr>';
 
 $opilasteArv = count($vso19);
 echo 'VSo19 rühmas on ' .$opilasteArv.' õpilasi<br>';
@@ -35,5 +36,26 @@ echo '</pre>';
 
 foreach ($jaana as $element => $vaartus){
     echo $element.' - '.$vaartus.'<br>';
+}
 
+$opilased = array(
+    array(
+    'eesnimi' => 'Jaana',
+    'perenimi' => 'Šeffer'
+),
+    array(
+        'eesnimi' => 'Kerli',
+        'perenimi' => 'Tekku'
+    ),
+    array(
+        'eesnimi' => 'Anne-Mari',
+        'perenimi' => 'Eensaar'
+    )
+);
+
+foreach ($opilased as $opilane){
+    foreach ($opilane as $element => $vaartus){
+        echo $element.' - '.$vaartus.'<br>';
+    }
+    echo '<br>';
 }
