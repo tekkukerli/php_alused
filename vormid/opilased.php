@@ -23,3 +23,17 @@ echo '<hr>';
 foreach ($vso19 as $opilane){
     echo $opilane.'<br>';
 }
+echo '<hr>';
+
+$jaana = array(  //seos asjade vahel, assotsiatsioon
+    'eesnimi' => 'Jaana', //koosneb elementidest
+    'perenimi' => 'Šeffer'
+);
+echo '<pre>'; //preformatted text
+print_r($jaana);
+echo '</pre>';
+
+foreach ($jaana as $element => $vaartus){
+    echo $element.' - '.$vaartus.'<br>';
+
+}

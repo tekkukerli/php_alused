@@ -38,3 +38,4 @@ $sruumala =pi()*$r2raadius*$skorgus;
 echo '<br>';
 echo 'Koonuse ruumala on: '.$sruumala.' m3<br>';
 
+//  <form method="get" action="<?php echo $_SERVER['PHP_SELF'];?>"
