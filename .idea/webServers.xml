@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="88d57257-1365-4fc1-b5df-ba4ca90bb5c7" name="php_alused" url="http://tekkukerli.ikt.khk.ee/">
+        <fileTransfer host="tekkukerli.ikt.khk.ee" port="22" rootFolder="/home/tekkukerliiktkhk" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
